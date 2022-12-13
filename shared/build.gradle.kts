@@ -60,6 +60,12 @@ kotlin {
     }
 }
 
+sqldelight {
+    database("NoteDatabase") {
+        packageName = "com.example.jnote.database"
+        sourceFolders = listOf("sqldelight")
+    }
+}
 
 android {
     namespace = "com.example.jnote"
