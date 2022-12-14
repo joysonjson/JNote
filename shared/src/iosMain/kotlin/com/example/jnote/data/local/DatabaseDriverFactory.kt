@@ -1,6 +1,7 @@
 package com.example.jnote.data.local
 
-import com.plcoding.noteappkmm.database.NoteDatabase
+//import com.plcoding.noteappkmm.database.NoteDatabase
+import  com.example.jnote.database.NoteDatabase
 import com.squareup.sqldelight.db.SqlDriver
 import com.squareup.sqldelight.drivers.native.NativeSqliteDriver
 
